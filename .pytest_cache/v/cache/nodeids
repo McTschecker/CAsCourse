@@ -1,3 +1,7 @@
 [
-  "1 Variables/test_variables.py::test_multiply"
+  "0 HelloWorld/test_helloWorld.py::test_HelloWorld",
+  "1 Variables/test_variables.py::test_multiply",
+  "1 Variables/test_variables.py::test_addString",
+  "1 Variables/test_variables.py::test_power",
+  "1 Variables/test_variables.py::test_devide"
 ]
