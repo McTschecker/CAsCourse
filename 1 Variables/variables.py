@@ -20,14 +20,14 @@ def variables():
     print(aInt - bInt)
     
     # Use this knowledge to make Hello World only from the definded variables  
-    helloWorld = 
+    helloWorld = aString + bString
     # Try multiplying aInt by bInt
-    multiply = 
+    multiply = aInt * bInt
 
     #Try taking bInt to the power of aInt
-    power = 
+    power = bInt ** aInt
     # How often does aInt fit in bInt
-    fitInto =
+    fitInto = bInt / aInt
 
 
     #Ignore for now:
