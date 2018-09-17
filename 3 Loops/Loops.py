@@ -15,7 +15,8 @@ def loops():
 
     # Now try iterating so that the variable c is multiplied by itself 15 times
     c = 2
-    
+    for u in range(16):
+        c = c * c
     # a while statement may be used to wait for a certain thing to be true
     a = 1 
     while a != 2:
@@ -24,6 +25,7 @@ def loops():
 
     # Now try adding 1 to d until d is equal to 15
     d = -155
-
+    while d >= 15:
+        d = d + 1
 
     return c, d
