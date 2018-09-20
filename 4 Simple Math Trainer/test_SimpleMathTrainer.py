@@ -2,7 +2,7 @@ import pytest
 from SimpleMathTrainer import trainMath
 
 def test_mathTrainer():
-    numbers = trainMath(10,1, 100)
+    numbers = trainMath(10,1, 100, test=True)
     # unpack
     for operation in numbers:
         n1 = operation[0]
