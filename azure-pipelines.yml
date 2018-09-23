@@ -7,7 +7,7 @@ pool:
   vmImage: 'Ubuntu 16.04'
 
 steps:
-- script: apt install python
+- script: sudo apt install python
   displayName: 'Install Python'
 
 - script: |
