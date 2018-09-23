@@ -7,10 +7,11 @@ pool:
   vmImage: 'Ubuntu 16.04'
 
 steps:
-- script: sudo apt install python
+- script: sudo apt install python python3-setuptools
   displayName: 'Install Python'
 
 - script: |
+    pip install --upgrade pip
     pip install -r requirements.txt
   displayName: 'Install pip requirements'
 
