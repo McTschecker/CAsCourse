@@ -1,6 +1,4 @@
 ### Copyright Fabian Blank
-import os
-
 import pytest
 from helloworld import hello
 

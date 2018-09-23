@@ -3,7 +3,7 @@
 import random
 from decimal import Decimal, getcontext
 getcontext().prec = 2
-def trainMath (iterations, min, max, test = False):
+def trainMath (iterations, min, max, isTest):
     ### You will get the following variables
     ### iterations - number of questions
     ### min - minimum number 
@@ -38,7 +38,7 @@ def trainMath (iterations, min, max, test = False):
     ### - 1
     ### * 3
     ### / 4
-    if test:
+    if isTest == True:
         return numbers 
     else:
         for operation in numbers:
@@ -67,4 +67,4 @@ def trainMath (iterations, min, max, test = False):
           
 
 
-trainMath(5,1,100, test=False)
+trainMath(5,1,100, False)

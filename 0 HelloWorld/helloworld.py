@@ -7,5 +7,6 @@
 
 def hello():
     #Write your code here
+    print("Hello World!")
     
 hello()
