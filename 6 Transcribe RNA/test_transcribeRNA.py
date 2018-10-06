@@ -4,7 +4,6 @@ import unittest
 import pytest
 from TranscribeRNA import to_rna
 
-
 # Tests adapted from `problem-specifications//canonical-data.json` @ v1.3.0
 
 class RnaTranscriptionTest(unittest.TestCase):
