@@ -39,7 +39,7 @@ Hello World
 
 
 ## Your task
-Create a class Person which contains these Parameters
+Create a class person which contains these Parameters
 - Name
 - Birthday (Should be a String)
 - Hair color *(Referenced as hair)*

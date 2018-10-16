@@ -1,5 +1,5 @@
 ### Copyright Fabian Blank
-from functions import doubleNumber, rootNumber
+from functions import doubleNumber, rootDouble
 
 
 def testDoubleNumber0():
@@ -16,10 +16,10 @@ def testDoubleNumberWithString():
 
 ### Def test square root of number and then double
 def testSquareDoule1():
-    assert rootNumber(81) == 18, 'Check your maths'
+    assert rootDouble(81) == 18, 'Check your maths'
 
 def testSquareDoule2():
-    assert rootNumber(39506172831604938272) == 17777777777, 'Check your function for errors'
+    assert rootDouble(57392094123049) == 15151514.0, 'Check your function for errors'
 
 def testNumberLikeAnAsshole():
-    assert rootNumber('hjfajkldsfakljödsfakljödsfajkldsfjklsfdgjklfdgjklfdgjklg') == None, 'I know you hate me now, but check the users input'
+    assert rootDouble('hjfajkldsfakljödsfakljödsfajkldsfjklsfdgjklfdgjklfdgjklg') == None, 'I know you hate me now, but check the users input'

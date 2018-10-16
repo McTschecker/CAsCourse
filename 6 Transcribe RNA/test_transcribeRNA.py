@@ -26,9 +26,6 @@ class RnaTranscriptionTest(unittest.TestCase):
     def test_transcribes_all_occurrences(self):
         self.assertEqual(to_rna('ACGTGGTCTTAA'), 'UGCACCAGAAUU')
         
-    def test_transcribe_LengthyString(self):
-        self.assertEqual('ACGTGGTCTTAAACGTGGTCTTAAACGTGGTCTTAAACGTGGTCTTAAACGTGGTCTTAAACGTGGTCTTAAACGTGGTCTTAAACGTGGTCTTAA', 'UGCACCAGAAUUUGCACCAGAAUUUGCACCAGAAUUUGCACCAGAAUUUGCACCAGAAUUUGCACCAGAAUUUGCACCAGAAUUUGCACCAGAAUU')
-
 
 if __name__ == '__main__':
     unittest.main()
