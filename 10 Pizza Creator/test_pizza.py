@@ -1,7 +1,7 @@
 import pytest
 import unittest
 from pizza import pizza
-class test_PizzaCreator(unittest.testCase):
+class test_PizzaCreator(unittest.TestCase):
     def test_pizzaName(self):
         piz = new.pizza("Clasic", True, ["Mozarella", "Parmesan"], False, [])
         self.assertEqual(piz.type, "Classic")
