@@ -333,3 +333,4 @@ ASALocalRun/
 .vscode.*
 .pytest_cache/
 .vscode/
+.vscode/*
