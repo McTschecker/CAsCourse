@@ -1,5 +1,6 @@
 {
-    "python.pythonPath": "C:\\Users\\fabia\\Anaconda3\\envs\\ai\\python.exe",
+
+    "python.pythonPath": "C:\\Users\\fabia\\Anaconda3\\python.exe",
     "python.unitTest.pyTestArgs": [
         "."
     ],
