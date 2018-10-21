@@ -22,9 +22,6 @@ class test_block(unittest.TestCase):
     def test_scheduleCreationStudent(self):	
         scheduleA = schedule('Max Mustermann', blockCreator(), "Wendnesday", "Thursday")	
         self.assertEqual(scheduleA.student, "Max Mustermann")	
-    def test_scheduleCreationBlocks(self):	
-        scheduleA = schedule('Max Mustermann', blockCreator(), "Wendnesday", "Thursday")	
-        self.assertEqual(scheduleA.blocks, blockCreator())	
     def test_scheduleCreationGradeLevel(self):	
         scheduleA = schedule('Max Mustermann', blockCreator(), "Wendnesday", "Thursday")	
         self.assertEqual(scheduleA.gradeLevel, "Wendnesday")	
