@@ -24,4 +24,3 @@ class test_PizzaCreator(unittest.TestCase):
     def test_PizzaNotBake(self):
         piz = pizza("Clasic", True, ["Mozarella", "Parmesan"], False, [])
         self.assertEqual(piz.baked, False)
-
