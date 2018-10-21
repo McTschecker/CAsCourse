@@ -6,7 +6,7 @@ def helloWorld():
     print('Hello World!')
 
 # Now create a function, named "doubleNumber", which doubles a number and then returns it
-# Please keep in mind, that the variable given to the Function
+# Please keep in mind, that the variable given to the Function can be not a number
 def doubleNumber(number):
     try:
         number = float(number)
@@ -16,9 +16,3 @@ def doubleNumber(number):
 
 
 # Now create a function, named "rootDouble", which finds the square root of a number and then doubles it. Please then return the final number
-def rootDouble(number):
-    try:
-        number = m.sqrt(number)
-        return doubleNumber(number)
-    except TypeError:
-        return 

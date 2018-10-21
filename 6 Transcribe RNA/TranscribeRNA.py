@@ -1,6 +1,5 @@
 ### MADE by Exercism and its contributors
 ### https://github.com/exercism/python
-transcribe = str.maketrans('GCTA', "CGAU")
 def to_rna(RNA):
     # RNA Transcription
     # Given a DNA strand, return its RNA complement (per RNA transcription).
@@ -17,7 +16,4 @@ def to_rna(RNA):
     # C -> G
     # T -> A
     # A -> U
-    try:
-        return (RNA.translate(transcribe))
-    except NameError:
-        return ""
+   
