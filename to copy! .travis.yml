@@ -1,7 +1,4 @@
 language: python
-branches:
-  except:
-  - master
 python: 
   - "3.6" 
 install: 
