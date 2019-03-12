@@ -1,4 +1,4 @@
-### Coperationyright Fabian Blank
+### Copyright Fabian Blank
 ### In thic chapter we will build a math trainer
 import random
 from decimal import Decimal, getcontext
