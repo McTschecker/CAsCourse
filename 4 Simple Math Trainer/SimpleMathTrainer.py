@@ -1,5 +1,5 @@
 ### Copyright Fabian Blank
-### In thic chapter we will build a math trainer
+### In this chapter we will build a math trainer
 import random
 from decimal import Decimal, getcontext
 getcontext().prec = 2
@@ -17,7 +17,7 @@ def trainMath (iterations, min, max, isTest):
     ### output numbers 
 
     ### Return numbers as an 2D array of form
-    ### [[number 1, operationeration, number 2, Solution] ...]
+    ### [[number 1, operation, number 2, Solution] ...]
     
     ### + 0
     ### - 1
