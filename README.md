@@ -2,7 +2,11 @@
 This is a very basic python code based course
 
 
-Install pytest using
+#Install python
+
+#Install pytest using
 pip install pytest
+
+https://docs.pytest.org/en/latest/
 
 and then run pytest in some folders with a test_ file to get instant feedback if your code is good
