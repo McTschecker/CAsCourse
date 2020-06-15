@@ -2,9 +2,9 @@
 This is a very basic python code based course
 
 
-#Install python
-
-#Install pytest using
+# Install python
+https://docs.pytest.org/en/latest/
+# Install pytest using
 pip install pytest
 
 https://docs.pytest.org/en/latest/
