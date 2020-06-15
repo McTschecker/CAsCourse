@@ -8,11 +8,7 @@ def helloWorld():
 # Now create a function, named "doubleNumber", which doubles a number and then returns it
 # Please keep in mind, that the variable given to the Function can be not a number
 def doubleNumber(number):
-    try:
-        number = float(number)
-    except ValueError:
-        return None
-    return number * 2
+ #TODO:
 
 
 # Now create a function, named "rootDouble", which finds the square root of a number and then doubles it. Please then return the final number
